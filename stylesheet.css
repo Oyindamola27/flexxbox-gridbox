@@ -2,8 +2,6 @@
 html{
     font-size: 15px;
     font-family: "Lexend Deca","Big shoulders Display";
-
-
 }
 .flexcontainer{
     display: flex;
@@ -30,9 +28,7 @@ body{
     margin:10px 0 0 ;
     padding: 5px; 
     border-top-left-radius: 5px;  
-    border-bottom-left-radius: 5px;
-    
-    
+    border-bottom-left-radius: 5px;   
 }
 .box2{
     background-color:hsl(184, 100%, 22%) ;
@@ -119,4 +115,21 @@ h1{
  }
  .luxurybtn{
      color: hsl(179, 100%, 13%);
+ }
+ a{
+    text-decoration: none;
+    color: yellow;
+    font-size: bolder;
+    
+ }
+ @media (min-width:375px){
+    .flexcontainer{
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     }
+    .box1,.box2,.box3{
+        border-radius: 5px;
+        margin-top: 15px;
+    }
  }
